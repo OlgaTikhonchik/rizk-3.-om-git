@@ -1,0 +1,1140 @@
+@media screen and (max-width: 1569px) {
+  .rating__table table {
+    flex-direction: column;
+  }
+
+  .rating__table table tbody {
+    width: 100%;
+  }
+  .table tr td:nth-child(3) {
+    margin-left: 0;
+  }
+
+  .table tr td:nth-child(1) {
+    flex: 0 0 220px;
+  }
+
+  .ratings__img img + img {
+    margin-left: 4px;}
+  
+}
+
+@media screen and (max-width: 1520px) {
+  .banner__spins .banner__info{
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+  }
+
+  .banner__codes  .banner__info{
+    background: none;
+ }
+}
+
+@media screen and (max-width: 1453px) {
+  .rating__table img + img {
+    margin-left: 10px;
+  }
+
+  .rating__table img {
+    width: 28px;
+    height: 28px;
+  }
+
+ 
+.banner__background-page img{
+  object-position: 1%;
+}
+.banner__background-spins img {
+    object-position: 100%;
+}
+  
+}
+
+
+
+@media screen and (max-width: 1398px) {
+  .features__content {
+    flex-direction: column;
+  }
+  
+}
+
+@media screen and (max-width: 1379px) {
+  .content__wrapper-page {
+    flex: 0 1 calc(100% - 240px - 10px);
+  }
+
+  .games__list {
+    grid-template-columns: auto auto auto auto;
+  }
+
+  .banner__info {
+    /* background: rgba(0, 0, 0, 0.5); */
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 1347px) {
+  .rating__table img + img {
+    margin-left: 6px;
+  }
+
+  .table tr td:nth-child(1) {
+    flex: 0 0 180px;
+  }
+
+  .table tr td:nth-child(3) {
+    flex: 0 1 80px;
+  }
+
+  .ratings__img img + img {
+    margin-left: 2px;
+  }
+
+  .footer__text {
+    width: 100%;
+  }
+  .hero__data {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    padding: 16px;
+  }
+}
+
+@media screen and (max-width: 1305px) {
+  
+  .rating__table img {
+    width: 24px;
+    height: 24px;
+  }
+
+  
+
+  .table tr td:nth-child(1) {
+    flex: 0 0 170px;
+  }
+      
+    table {
+      flex-direction: column;
+      gap: 4px;
+    }
+    table tbody {
+      width: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+  .sidebar-left {
+    display: none;
+  }
+  .menu-review__content {
+    display: block;
+    padding: 0;
+    border-radius: 8px;
+   
+
+  }
+
+  .rating__table img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .menu-review-desk {
+    padding: 16px;
+  }
+
+  .menu-review__content > .menu-review__list.active {
+    display: block;
+  }
+
+  .main__wrap {
+    padding: 90px 10px 10px 10px;
+  }
+
+  .main__wrap-page {
+    /* padding: 20px 0 0 0; */
+    margin: 0 10px 0 10px;
+    padding: 20px 10px 10px 10px;
+  }
+
+  .content__wrapper {
+    flex: 0 1 100%;
+    margin: auto 0 0 0;
+  }
+
+  .content__wrapper .content {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .footer__content {
+    padding: 30px 20px;
+  }
+}
+
+@media screen and (max-width: 1189px) {
+  
+  .features__table td:last-child {
+    flex: 0 1 calc(100% - 32px);
+    white-space: nowrap;
+  }
+
+  table tr {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 1156px) {
+  .header__btn-menu.active {
+    background: #0d1d34;
+  }
+  .header__btn-menu {
+    display: block;
+    margin-left: 16px;
+  }
+  .header__btn-menu svg {
+    display: block;
+    margin: 0;
+  }
+  .header__btn-menu svg rect {
+    transform-origin: 50% 50%;
+    transition: all 0.5s;
+  }
+
+  .header__btn-menu.active svg rect:nth-child(1) {
+    x: -2px;
+    y: 6px;
+    width: 20px;
+    transform: rotate(225deg);
+  }
+
+  .header__btn-menu.active svg rect:nth-child(3) {
+    opacity: 0;
+  }
+
+  .header__btn-menu.active svg rect:nth-child(2) {
+    x: -2px;
+    y: 6px;
+    width: 20px;
+    transform: rotate(135deg);
+  }
+
+  .header__menu {
+    display: none;
+    position: fixed;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    background: #05071a;
+    text-align: center;
+    z-index: 100;
+    transition: height 0.5s ease, opacity 0.5s ease;
+    opacity: 0;
+    padding: 20px 50px;
+    overflow-y: auto;
+    display: block;
+  }
+
+  .header__menu.active {
+    display: block;
+    height: 100vh;
+    opacity: 1;
+  }
+
+  .header {
+    z-index: 101;
+  }
+
+  .header__menu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .header__menu ul li + li {
+    margin-top: 10px;
+  }
+
+  .menu ul li:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .header__logo {
+    margin-right: 25px;
+  }
+  .header__menu-list li a {
+    padding: 0;
+  }
+
+  .header__menu-list li:first-child a{
+    padding-right: 0;
+  }
+  .header__menu-list li:first-child a::after{
+    display: none;
+  }
+  .header__menu-list li:nth-last-child(-n+3) {
+  display: block;
+}
+
+
+
+.header__menu-wrapper{
+  display: none;
+}
+.header__menu-list .header__menu-item{
+  display: block;
+}
+}
+
+@media screen and (max-width: 1120px) {
+  .background-page img{
+    object-position: 100%;
+  }
+  .hero__data-page{
+    background: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+  }
+
+  .home .hero__page {
+            padding-right: 20px;
+            padding-left: 20px;
+          }
+
+          .banner__app {
+            padding: 20px;
+          }
+}
+
+@media screen and (max-width: 1100px) {
+  .content__wrapper {
+    flex: 1 1 100%;
+    margin-right: 0;
+    max-width: 100%;
+  }
+
+ 
+  .sidebar-right {
+    display: none;
+  }
+
+  .hero__data-page{
+    background: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+  }
+
+  .home .hero__page {
+            padding-right: 20px;
+            padding-left: 20px;
+          }
+
+  .features__table td:last-child {
+    flex: 0 1 calc(100% - 52px);
+  }
+
+  .footer__cards-list {
+    margin-bottom: 40px;
+  }
+
+   
+   .hero__data {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    padding: 16px;
+
+  }
+ 
+}
+@media screen and (max-width: 877px) {
+.games__list {
+    grid-template-columns: auto auto auto;
+  }
+
+  .top ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 839px) {
+  .button__wrap-app{
+    flex-direction: column;
+    justify-content: center;
+    width: max-content;
+  }
+
+  .banner__login-info {
+    width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+padding: 10px;
+border-radius: 8px;}
+
+    .decor-background-banner {
+      left: 0;
+    }
+
+  .banner__content-app {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 809px) {
+  .features table {
+    flex-direction: column;
+  }
+
+  .features table tbody {
+    width: 100%;
+  }
+  .banner__backgroud img,
+  .background img {
+    object-position: 99%;
+  }
+  .banner__background-page img{
+  object-position: 1%;
+}
+
+.banner__backgroud img {
+  object-position: 1%;
+}
+
+.banner__background-login img{
+  object-position: 50%;
+}
+
+.banner__background-spins img {
+    object-position: 100%;
+}
+
+  .banner__decor {
+    right: 25%;
+  }
+
+  .hero__data {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 800px) {
+  
+
+
+
+  .features__info:first-child {
+    margin-bottom: 20px;
+  }
+
+  .features__table td:last-child {
+    flex: 0 1 calc(100% - 72px);
+  }
+
+  .banner__title {
+    font-size: 28px;
+  }
+
+  .footer__cards-list {
+    margin-bottom: 16px;
+  }
+  .banner__data-bonus {
+    padding: 16px;
+
+  }
+
+  .ratings__content {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .ratings__list {
+    flex-direction: column;
+  }
+
+  .ratings__list li:not(:last-child) {
+    margin-bottom: 8px;
+  }
+  .ratings__list li {
+    width: 100%;
+  }
+
+  .ratings__button {
+    margin-left: auto;
+  }
+
+  .features__content {
+    flex-direction: column;
+  }
+
+  .hero__title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .banner__title {
+    font-size: 24px;
+  }
+
+  .review__title,
+  .ratings__title,
+  .faq__title {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .button__login {
+    display: none;
+  }
+
+  .button__singup {
+    margin-left: 20px;
+  }
+
+  .header__button-menu > .button__login-menu {
+    display: inline-block;
+    background: #FFE500;
+;
+    margin: 0;
+  }
+
+  
+
+  .menu .button__singup {
+    display: none;
+  }
+
+  .header__button {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 688px) {
+  .rating__table tr {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .table tr td:nth-child(1) {
+    justify-content: center;
+  }
+  .ratings__content {
+    flex-direction: column;
+  }
+
+  .table tr td:nth-child(1),
+  .table tr td:nth-child(3) {
+    flex: 0;
+    width: 100%;
+  }
+
+  .banner__content {
+    flex:  0 0 100%;
+  }
+}
+@media screen and (max-width: 664px) {
+  .button__singup {
+    display: none;
+  }
+
+  .header__flag {
+    margin-left: auto;
+  }
+
+  .header__content {
+    padding: 15px;
+    max-height: 70px;
+  }
+
+      .main__wrap {
+        padding: 70px 10px 10px 10px;
+    }
+  .menu .button__singup {
+    display: inline-block;
+    margin: 0;
+    margin-left: 10px;
+  }
+
+      .header__menu {
+        top :70px;
+      }
+
+      .header__logo {
+        max-width: 140px;
+      }
+
+  .header__menu .header__button-menu {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header__menu .button__menu {
+    display: inline-block;
+    margin-top: 20px;
+  }
+  .main.home {
+    display: block;
+  }
+
+  .ratings__info {
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+  .ratings p {
+    flex:0;
+  }
+      .ratings__img {
+        max-width: 100%;
+        justify-content: center;
+      }
+
+      .banner__backgroud img{
+        object-position: 10%;
+      }
+}
+
+@media screen and (max-width:627px) {
+.games__list {
+    grid-template-columns: auto  auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .review__title,
+  .ratings__title,
+  .faq__title {
+    font-size: 24px;
+    line-height: 32px;
+    white-space: wrap;
+  }
+  .hero__title {
+    font-size: 24px;
+  }
+
+  .banner__info {
+    width: 100%;
+  }
+  .rating__table img {
+    margin: 0;
+  }
+  .banner {
+    padding: 60px 20px;
+  }
+
+  .banner__backgroud img {
+    object-position: 70%;
+  }
+
+  
+  
+      .banner__backgroud img, .background img {
+        object-position: 79%
+
+    }
+   
+  .banner__background-page img{
+  object-position: 1%;
+}
+
+ .banner__backgroud img{
+        object-position: 10%;
+      }
+
+      .background-page img{
+        object-position: 100%;
+      }
+
+      .banner__background-login img{
+  object-position: 50%;
+}
+
+.banner__background-spins img {
+    object-position: 100%;
+}
+
+.banner__background-codes img{
+    object-position: 80%;
+  }
+
+}
+
+@media screen and (max-width: 560px) {
+ 
+
+  .footer__menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__menu div {
+    text-align: center;
+  }
+  .footer__menu .footer__info li::before {
+    display: none;
+  }
+
+  .footer__text {
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .footer__wrapp {
+    flex-direction: column;
+align-items: center;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 555px) {
+  h2::after {
+    display: none;
+  }
+
+  .button__wrap-app {
+    flex-direction: column;
+  }
+
+  .banner__backgroud-deposit img{
+object-position: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero__wrapper {
+    position: relative;
+    max-width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .banner__decor-last {
+    right: 0;
+  }
+
+  .hero__img {
+    position: absolute;
+    opacity: 0.5;
+  }
+
+  
+
+  .hero__title {
+    z-index: 1;
+  }
+
+  .hero__button {
+    z-index: 1;
+  }
+
+
+
+  .features__table td:last-child {
+    flex: 0 1 calc(100% - 45px);
+    word-wrap: break-word;
+    white-space: normal;
+  }
+
+  
+
+  .footer__information {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer__information li {
+    margin-left: 24px;
+    margin-top: 24px;
+  }
+
+  .background img {
+    object-position: 70%;
+  }
+      .banner__backgroud img {
+        object-position: 20%;
+    }
+
+  
+    .banner__background-app img {
+        object-position: 100%;
+    }
+
+    .banner__background-page img{
+  object-position: 20%;
+}
+
+.banner__background-codes img{
+  object-position: 1%;
+}
+
+ .background-page img{
+        object-position: 100%;
+      }
+
+      .background-page-login img{
+        object-position: 40%;
+      }
+
+      .banner__background-spins img {
+    object-position: 100%;
+}
+
+  .banner__decor {
+  right: 0;
+  
+}
+.banner__backgroud-last img{
+  object-position: 80%;
+}
+   .banner__background-login img{
+  object-position: 50%;
+}
+
+.banner__background-codes img{
+    object-position: 80%;
+  }
+
+  .hero__data {
+    width: 100%;
+    max-width: 100%;
+  }
+  .banner__deposit .banner__subtitle ,.banner__spins .banner__subtitle
+
+ {
+    text-align: center;
+}
+
+  .banner__deposit .banner__info,.banner__spins .banner__info  {
+    align-items:center;
+}
+
+.banner__deposit .banner__info .banner__button {
+  margin-right: auto;
+}
+
+.banner__spins .banner__info .banner__button{
+  margin-left: auto;
+}
+
+   table tr {
+        flex-direction: column;
+        text-align: center;
+      }
+
+          table td:first-child ,    table td:last-child {
+            width: 100%;
+          }
+
+          .features__table tr{
+            flex-direction: row;
+            text-align:left;
+          }
+          .submit {
+    min-width: 220px;
+}
+}
+
+@media screen and (max-width: 440px) {
+  .footer__menu {
+    display: block;
+    text-align: center;
+  }
+  .banner__login {
+    padding: 0;
+  }
+      .banner__login-info {
+        border-radius: 0;
+      }
+
+  .footer__menu li {
+    text-align: center;
+  }
+
+  .footer__menu > li:not(:last-child) {
+    margin-bottom: 16px;
+  }
+
+  h2,
+  .title.high {
+    font-size: 26px;
+  }
+
+  .banner .banner__title-bonus {
+    font-size: 24px;
+  }
+
+  .top ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero__data {
+    
+    text-align: center;
+  }
+
+  .banner .banner__title {
+    line-height: 40px;
+    font-size: 28px;
+    text-align: center;
+  }
+     
+
+  .banner__info {
+    align-items: center;
+    padding: 5px;
+  }
+
+  .hero__title ,.banner__subtitle {
+    text-align: center;
+  }
+  .banner__button {
+    margin-left: auto;
+  }
+
+  .hero__rating {
+    justify-content: center;
+  }
+
+  .article__button {
+    margin-left: auto;
+  }
+  .banner {
+    padding: 20px;
+  }
+
+  .rating__table img + img {
+    margin-left: 2px;
+  }
+  .rating__table img {
+    width: 24px;
+    height: 24px;
+  }
+  
+}
+
+@media screen and (max-width:420px) {
+.games__list {
+    grid-template-columns: auto ;
+  }
+   .banner{
+        padding: 12px;
+    }
+}
+
+@media screen and (max-width: 399px) {
+ 
+  
+    .header__logo {
+      max-width: 120px;
+      flex: 0 0 120px;
+    }
+}
+
+
+
+@media screen and (max-width: 370px) {
+  .hero__title {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .header__app {
+    display: none;
+  }
+
+  .hero__data {
+    padding-right: 10px;
+  }
+
+ 
+
+   .ratings__wrap {
+    white-space: nowrap;
+  }
+  .rating__table img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .header__logo {
+        max-width: 90px;
+        flex: 0 0 90px;
+    }
+
+    .ratings__list p {
+      font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+  .ratings__wrap img {
+    width: 11.5px;
+    height: 11.5px;
+  }
+
+  .ratings__wrap span {
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  
+}
+
+/* ---------app-page------------ */
+
+@media screen and (max-width: 1379px) {
+  .content__wrapper-page {
+    flex: 1 1 100%;
+    margin-right: 0;
+    /* margin: 0; */
+  }
+}
+
+@media screen and (max-width: 809px) {
+  .home .hero__page {
+    padding-left: 20px;
+  }
+
+  .banner__app {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 664px) {
+  .main-page.home {
+    top: 75px;
+  }
+
+  .banner__logo {
+    margin-left: 40px;
+  }
+
+      .hero__data-page {
+        max-width: 100%;
+        width: 100%;
+      }
+
+      .hero__wrapper-page{
+        max-width: 100%;
+      }
+
+          
+  
+}
+
+
+
+@media screen and (max-width: 550px) {
+  .banner__content-app {
+   
+    gap: 16px;
+  }
+
+  .banner__btn {
+    min-width: 220px;  }
+  .banner__logo {
+    flex: 0;
+    margin-left: 0;
+  }
+
+  .home .hero__page {
+    padding-right: 20px;
+    justify-content: center;
+  }
+}
+
+
+@media screen and (max-width: 440px) {
+  .breadcrumbs {
+    justify-content: center;
+  }
+  .banner__app {
+    justify-content: center;
+  }
+}
+
+
+
+
+
+/* ------------page-bonus---------- */
+
+@media screen and (max-width: 1430px) {
+  .bonuses__item {
+    height: max-content;
+  }
+
+  .bonuses__img img {
+    display: block;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 722px) {
+  .bonuses__item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bonuses__img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .title.bonuses__title,
+  .bonuses__desc p {
+    text-align: center;
+  }
+
+  .bonuses__img img {
+    width: 400px;
+  }
+
+  .bonuses__desc {
+    align-items: center;
+    width: 650px;
+  }
+}
+
+@media screen and (max-width: 665px) {
+  .bonuses__desc {
+    width: 550px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .bonuses__desc {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 492px) {
+  .bonuses__desc {
+    width: 430px;
+  }
+}
+@media screen and (max-width: 448px) {
+  .bonuses__desc {
+    width: 410px;
+  }
+
+  .title.bonuses__title {
+    line-height: 32px;
+  }
+}
+
+@media screen and (max-width: 407px) {
+  .bonuses__desc {
+    width: 380px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .bonuses__desc {
+    width: 330px;
+  }
+}
